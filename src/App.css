@@ -30,6 +30,7 @@ section {
 section p {
   width: 50%;
   font-size: 2em;
+  line-height: 1.3em;
 }
 
 section p:first-child {
