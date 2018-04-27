@@ -65,6 +65,7 @@ img {
   }
 
 .wrapper {
+  position: relative;
   width: 70%;
   overflow: hidden;
   border-radius: 1em;
@@ -196,4 +197,21 @@ img {
   position: absolute;
   left: 0;
   top: -25px;
+}
+
+.overflow {
+  overflow: initial;
+}
+
+.overflow img {
+  border-radius: 1em;
+}
+
+.closeup {
+  position: absolute;
+  bottom: -10%;
+  right: -10%;
+  width: 60%;
+  transform: scale(1) perspective(2910px) rotateY(12deg) rotateX(3deg) rotate(0deg);
+  box-shadow: -1px -1px 5px 0 rgba(26,26,67,.05), -12px 20px 125px -25px rgba(84, 38, 136, 0.5), -18px 20px 75px -37.5px rgba(0,0,0,.6);
 }

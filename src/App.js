@@ -63,13 +63,19 @@ class App extends Component {
           THIS IS THE PRESENT MOMENT. ABOVE WAS THE PAST, BELOW IS THE FUTURE.
         </div>
         <section className='past-next'>
+          <div className='illo'>
+            <div className='wrapper left overflow'>
+              <img src='sizing.png' />
+              <img src='closeup.jpg' className='closeup' />
+            </div>
+          </div>
           <p>Production run finalized with sizes and shrink-wrapping</p>
         </section>
         <section>
-          <p>International shipment from factory to Amazon wearhouses coordinated by Flexport, who handles tracking, customs and re-palletization domestically.</p>
+          <p>International shipment from factory to Amazon wearhouses coordinated by <a href='https://www.flexport.com/' target='_blank'>Flexport</a>, who handles tracking, customs and re-palletization domestically.</p>
         </section>
         <section>
-          <p>Underwear stock stored at Amazon wearhouses for a fee.</p>
+          <p>Underwear stock stored at <a href='https://services.amazon.com/fulfillment-by-amazon/pricing.html' target='_blank'>Amazon</a> wearhouses for a fee.</p>
         </section>
         <section>
           <p>Amazon product page launced for item.</p>
