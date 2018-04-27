@@ -1,0 +1,14 @@
+.hero {
+  background: url(./assets/hero.jpg) 30% 20% no-repeat;
+  min-height: 700px;
+  padding: 2em;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.hero p {
+  font-size: 2em;
+  max-width: 400px;
+  text-align: left;
+}
