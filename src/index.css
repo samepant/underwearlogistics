@@ -1,0 +1,11 @@
+@font-face {
+  font-family: 'Panama';
+  src:  url('./assets/pan.woff') format('woff');
+}
+
+body {
+  font-family: 'Panama', serif;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
