@@ -29,7 +29,7 @@ section {
 
 section p {
   width: 50%;
-  font-size: 2em;
+  font-size: 1.6em;
   line-height: 1.3em;
 }
 
@@ -39,7 +39,6 @@ section p:first-child {
 
 section>div {
   position: relative;
-  width: 60%;
 }
 
 video {
@@ -69,12 +68,12 @@ img {
   width: 70%;
   overflow: hidden;
   border-radius: 1em;
-  transform: scale(1.3) translateX(100px) translateY(0) perspective(3190px) rotateY(-29deg) rotateX(4deg) rotate(1deg);
+  transform: scale(1.2) translateX(100px) translateY(0) perspective(3190px) rotateY(-29deg) rotateX(4deg) rotate(1deg);
   box-shadow: 1px 1px 5px 0 rgba(26,26,67,.05), 39px 62.5px 125px -25px rgba(84, 38, 136, 0.5), 23.4px 37.5px 75px -37.5px rgba(0,0,0,.6);
 }
 
 .wrapper.left {
-  transform: scale(1) perspective(2910px) rotateY(12deg) rotateX(3deg) rotate(-2deg);
+  transform: scale(1.2) perspective(2910px) rotateY(12deg) rotateX(3deg) rotate(-2deg);
   box-shadow: -1px -1px 5px 0 rgba(26,26,67,.05), -12px 20px 125px -25px rgba(84, 38, 136, 0.5), -18px 20px 75px -37.5px rgba(0,0,0,.6);
 }
 
@@ -126,11 +125,11 @@ img {
 }
 
 .vid-wrapper {
-  width: 70%;
+  width: 90%;
   overflow: hidden;
   border-radius: 1em;
   margin: 2em 0;
-  transform: scale(1.3) translateX(100px) translateY(0) perspective(3190px) rotateY(-29deg) rotateX(4deg) rotate(1deg);
+  transform: scale(1.3) translateX(20px) translateY(0) perspective(2190px) rotateY(-12deg) rotateX(4deg) rotate(1deg);
   box-shadow: 1px 1px 5px 0 rgba(26,26,67,.05), 39px 62.5px 125px -25px rgba(84, 38, 136, 0.5), 23.4px 37.5px 75px -37.5px rgba(0,0,0,.6);
 }
 
@@ -156,7 +155,7 @@ img {
   z-index: 6;
   font-size: 6vw;
   text-align: center;
-  background: #8f3bca;
+  background: #8f3bca#8f3bca;;
   color: white;
   padding: 2em 0;
 }
@@ -203,7 +202,11 @@ img {
   overflow: initial;
 }
 
-.overflow img {
+.image-radius img {
+  border-radius: 1em;
+}
+
+.flexport video {
   border-radius: 1em;
 }
 
@@ -214,4 +217,35 @@ img {
   width: 60%;
   transform: scale(1) perspective(2910px) rotateY(12deg) rotateX(3deg) rotate(0deg);
   box-shadow: -1px -1px 5px 0 rgba(26,26,67,.05), -12px 20px 125px -25px rgba(84, 38, 136, 0.5), -18px 20px 75px -37.5px rgba(0,0,0,.6);
+}
+
+.resources {
+  color: white;
+  background: #8f3bca;
+}
+
+.no-arrow::after {
+  content: none;
+}
+
+.resources::before {
+  content: '';
+  background: url(./assets/x1.png) top left repeat-x;
+  background-size: contain;
+  width: 100%;
+  height: 50px;
+  position: absolute;
+  left: 0;
+  top: -26px;
+}
+
+.resources ul {
+  list-style: none;
+  padding: 0;
+}
+
+.resources a {
+  display: block;
+  color: white;
+  margin-bottom: 0.4em;
 }

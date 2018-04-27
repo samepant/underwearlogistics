@@ -72,16 +72,43 @@ class App extends Component {
           <p>Production run finalized with sizes and shrink-wrapping</p>
         </section>
         <section>
-          <p>International shipment from factory to Amazon wearhouses coordinated by <a href='https://www.flexport.com/' target='_blank'>Flexport</a>, who handles tracking, customs and re-palletization domestically.</p>
+          <p>International shipment from Ruby Fashion factory to Amazon wearhouses coordinated by <a href='https://www.flexport.com/' target='_blank'>Flexport</a>, who handles tracking, customs and re-palletization domestically.</p>
+          <div className='illo'>
+            <div className='vid-wrapper flexport overflow'>
+              <video src='flexport.mp4' autoPlay loop />
+            </div>
+          </div>
         </section>
         <section>
+          <div className='illo'>
+            <div className='vid-wrapper wrapper left'>
+              <video src='amazon.mp4' autoPlay loop />
+            </div>
+          </div>
           <p>Underwear stock stored at <a href='https://services.amazon.com/fulfillment-by-amazon/pricing.html' target='_blank'>Amazon</a> wearhouses for a fee.</p>
         </section>
-        <section>
+        <section className='no-arrow'>
           <p>Amazon product page launced for item.</p>
+          <div className='illo'>
+            <div className='wrapper'>
+              <img src='amazon.jpg' />
+            </div>
+          </div>
         </section>
-        <section>
-          <p>Charging a fulfillment fee, Amazon ships stock directly to customer.</p>
+        <section className='resources'>
+          <div>
+            <h2>MORE RESOURCES</h2>
+            <ul>
+              <li><a href='https://services.amazon.com/fulfillment-by-amazon/pricing.htm/ref=asus_fba_snav_p' target='_blank'>Fulfillment by Amazon</a></li>
+              <li><a href='https://www.flexport.com/help/101-flexport-services-faqs' target='_blank'>Flexport Services</a></li>
+              <li><a href='https://www.junglescout.com/blog/international-freight-for-amazon-fba/' target='_blank'></a></li>
+              <li><a href='https://www.junglescout.com/blog/international-freight-for-amazon-fba/' target='_blank'>International Freight Explained</a></li>
+              <li><a href='https://sellercentral.amazon.com/forums/t/how-can-i-increase-my-product-visibility-on-amazon/181733' target='_blank'>Amazon Product ads</a></li>
+              <li><a href='https://sellercentral.amazon.com/gp/help/external/200141500?language=en-US&ref=mpbc_200243250_cont_200141500' target='_blank'>Amazon packaging requirements</a></li>
+              <li><a href='https://www.flexport.com/now' target='_blank'>Flexport freight visualization</a></li>
+              <li><a href='https://www.tradefinanceglobal.com/posts/what-is-freight-forwarding-flexport-ryan-peterson/' target='_blank'>Importance of freight forwarding</a></li>
+            </ul>
+          </div>
         </section>
       </div>
     );
