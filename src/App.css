@@ -172,6 +172,7 @@ img {
 
 .react-slideshow-wrapper.slide {
   width: 660px;
+  margin: 0 auto;
   border-radius: 1em;
   overflow: hidden;
   transform: scale(1) perspective(2910px) rotateY(12deg) rotateX(3deg) rotate(-2deg);
@@ -250,7 +251,7 @@ img {
 .closeup {
   position: absolute;
   bottom: -10%;
-  right: -10%;
+  right: -5%;
   width: 60%;
   transform: scale(1) perspective(2910px) rotateY(12deg) rotateX(3deg) rotate(0deg);
   box-shadow: -1px -1px 5px 0 rgba(26,26,67,.05), -12px 20px 125px -25px rgba(84, 38, 136, 0.5), -18px 20px 75px -37.5px rgba(0,0,0,.6);
@@ -304,8 +305,23 @@ img {
     flex-wrap: wrap;
   }
 
+  .illo {
+    width: 100%;
+    padding: 4em 0;
+    min-width: auto;
+  }
+
   section p:first-child {
     padding: 0
+  }
+
+  section p {
+    order: 1;
+    width: 100%;
+  }
+
+  section div {
+    order: 2;
   }
 
   .closeup {
@@ -317,10 +333,12 @@ img {
   }
 
   .vid-wrapper {
+    width: 100%;
     transform: none;
   }
   .wrapper {
     transform: none;
+    width: 100%;
   }
   .wrapper.left {
     transform: none;
