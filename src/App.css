@@ -34,7 +34,7 @@ section p {
 }
 
 .future {
-  background: linear-gradient(170deg, #9854c9 0%,#4b0b7f 100%);
+  background: linear-gradient(170deg, #8f3bca 0%,#7d17c6 100%);
   color: white;
 }
 
@@ -193,7 +193,7 @@ img {
   z-index: 6;
   font-size: 6vw;
   text-align: center;
-  background: linear-gradient(160deg, #9854c9 0%,#4b0b7f 100%);
+  background: linear-gradient(170deg, #8f3bca 0%,#7d17c6 100%);
   color: white;
   padding: 2em 0;
 }
