@@ -11,4 +11,19 @@
   font-size: 2em;
   max-width: 400px;
   text-align: left;
+  padding: 0 3em 0 0;
+}
+
+@media (max-width: 850px) {
+  .hero {
+    justify-content: center;
+    align-items: flex-start;
+    padding: 1em 0;
+  }
+
+  .hero p:first-child {
+    width: 100%;
+    padding: 1em;
+    margin: 0;
+  }
 }

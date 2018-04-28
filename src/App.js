@@ -62,8 +62,8 @@ class App extends Component {
         <div className='past-separator'>
           THIS IS THE PRESENT MOMENT. ABOVE WAS THE PAST, BELOW IS THE FUTURE.
         </div>
-        <section className='past-next'>
-          <div className='illo'>
+        <section className='past-next future'>
+          <div className='illo image-radius'>
             <div className='wrapper left overflow'>
               <img src='sizing.png' />
               <img src='closeup.jpg' className='closeup' />
@@ -71,7 +71,7 @@ class App extends Component {
           </div>
           <p>Production run finalized with sizes and shrink-wrapping</p>
         </section>
-        <section>
+        <section className='future'>
           <p>International shipment from Ruby Fashion factory to Amazon wearhouses coordinated by <a href='https://www.flexport.com/' target='_blank'>Flexport</a>, who handles tracking, customs and re-palletization domestically.</p>
           <div className='illo'>
             <div className='vid-wrapper flexport overflow'>
@@ -79,7 +79,7 @@ class App extends Component {
             </div>
           </div>
         </section>
-        <section>
+        <section className='future'>
           <div className='illo'>
             <div className='vid-wrapper wrapper left'>
               <video src='amazon.mp4' autoPlay loop />
@@ -87,8 +87,8 @@ class App extends Component {
           </div>
           <p>Underwear stock stored at <a href='https://services.amazon.com/fulfillment-by-amazon/pricing.html' target='_blank'>Amazon</a> wearhouses for a fee.</p>
         </section>
-        <section className='no-arrow'>
-          <p>Amazon product page launced for item.</p>
+        <section className='no-arrow future'>
+          <p>Amazon product page launched for item.</p>
           <div className='illo'>
             <div className='wrapper'>
               <img src='amazon.jpg' />
