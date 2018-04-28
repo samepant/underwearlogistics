@@ -4,7 +4,7 @@ import './hero.css'
 const hero = (props) => {
   return (
     <section className='hero'>
-      <p>Sculpting with logistical flows: an underwear case study.</p>
+      <p>Working with logistical flows: an underwear case study.</p>
 
     </section>
   )
