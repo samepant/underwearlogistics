@@ -136,7 +136,7 @@ img {
 
 .convo-wrapper img.convo {
   position: relative;
-  width: 100%%;
+  width: 100%;
   top:0;
   left: 0;
   z-index: 5;
@@ -343,4 +343,9 @@ img {
   .wrapper.left {
     transform: none;
   }  
+
+  .convo-wrapper img.convo {
+    animation: none;
+    transform: translateY(-45%);
+  }
 }
