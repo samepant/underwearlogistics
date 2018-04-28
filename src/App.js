@@ -29,7 +29,7 @@ class App extends Component {
               <Slide images={inquiryImages} duration={5000} transitionDuration={1000} />
             </div>
           </div>
-          <p>Enquires sent to various factories through Alibaba's portal.</p>
+          <p>Enquiries sent to various factories through Alibaba's portal.</p>
         </section>
         <section>
           <p>Discussion of sample terms with <a href='https://rubylg.en.alibaba.com/' target='_blank'>Ruby Fashion</a>, sample payment sent through paypal.</p>
@@ -51,7 +51,7 @@ class App extends Component {
           <p>Step by step sample approval takes place on Whatsapp.</p>
         </section>
         <section>
-          <p>Sample received for final approval</p>
+          <p>Sample received for final approval.</p>
           <div className='illo'>
             <div className='wrapper package'>
               <img src='package.jpg' />
